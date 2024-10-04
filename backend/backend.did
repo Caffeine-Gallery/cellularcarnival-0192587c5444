@@ -1,0 +1,6 @@
+service : {
+  getGrid: () -> (vec vec bool) query;
+  initializeGame: () -> (vec vec bool);
+  randomizeCells: () -> (vec vec bool);
+  updateGame: () -> (vec vec bool);
+}
