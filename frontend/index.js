@@ -37,7 +37,7 @@ async function updateGame() {
 }
 
 function startGame() {
-  intervalId = setInterval(updateGame, 100);
+  intervalId = setInterval(updateGame, 200);  // Changed from 100 to 200 milliseconds
   startBtn.disabled = true;
   stopBtn.disabled = false;
 }
